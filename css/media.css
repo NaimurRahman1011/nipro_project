@@ -20,23 +20,44 @@
     padding: 6px 10px;
   }
   /*slider end*/
-  /*feature section start*/
-
-  /*feature section end*/
   /*about us section start*/
-.about_us {
-  text-align: center;
+  .about_us {
+    text-align: center;
+  }
+  .about_us_img {
+    width: 415px;
+  }
+  .aboutus_text {
+    margin-top: 40px;
+  }
+  .about_us_btn {
+    margin-top: 15px;
+  }
+  /*about us section end*/
+  /*pricing section start*/
+  .price_title {
+    width: 32%;
+  }
+  /*pricing section end*/
+  /*work member slider start*/
+  .member_bio {
+    text-align: center;
+  }
+  .pin_icon {
+    left: 190px;
+  }
+  .member_img {
+    width: 50% !important;
+    padding-bottom: 10px;
+  }
+  .wbp, .wbn {
+    padding: 10px 0;
+    top: 0;
 }
-.about_us_img {
-  width: 415px;
-}
-.aboutus_text {
-  margin-top: 40px;
-}
-.about_us_btn {
-  margin-top: 15px;
-}
-/*about us section end*/
+  .wbp span, .wbn span {
+    transform: none;
+  }
+  /*work member slider end*/
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -48,16 +69,40 @@
   }
   /*header end*/
   /*about us section start*/
-.about_us {
-  text-align: center;
+  .about_us {
+    text-align: center;
+  }
+  .aboutus_text {
+    margin-top: 40px;
+  }
+  .about_us_btn {
+    margin-top: 15px;
+  }
+  /*about us section end*/
+  /*pricing section start*/
+  .price_title {
+    width: 32%;
+  }
+  /*pricing section end*/
+  /*work member slider start*/
+  .member_bio {
+    text-align: center;
+  }
+  .pin_icon {
+    left: 190px;
+  }
+  .member_img {
+    width: 50% !important;
+    padding-bottom: 10px;
+  }
+  .wbp, .wbn {
+    padding: 10px 0;
+    top: 0;
 }
-.aboutus_text {
-  margin-top: 40px;
-}
-.about_us_btn {
-  margin-top: 15px;
-}
-/*about us section end*/
+  .wbp span, .wbn span {
+    transform: none;
+  }
+  /*work member slider end*/
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -80,29 +125,41 @@
   }
   .features_icon i {
     font-size: 55px;
-}
+  }
   /*feature section start*/
-/*about us section start*/
-.about_us {
-  text-align: center;
-}
-.aboutus_text {
-  margin-top: 40px;
-}
-.about_us_btn {
-  margin-top: 20px;
-}
-/*about us section end*/
+  /*about us section start*/
+  .about_us {
+    text-align: center;
+  }
+  .aboutus_text {
+    margin-top: 40px;
+  }
+  .about_us_btn {
+    margin-top: 20px;
+  }
+  /*about us section end*/
+  /*work member slider start*/
+  .member_bio {
+    text-align: center;
+  }
+  .pin_icon {
+    left: 190px;
+  }
+  .member_img {
+    width: 50% !important;
+    padding-bottom: 10px;
+  }
+  /*work member slider end*/
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    /*feature section start*/
-    .common_title {
-      font-size: 28px;
-      margin-bottom: 22px;
-    }
-    /*feature section start*/
+  /*feature section start*/
+  .common_title {
+    font-size: 28px;
+    margin-bottom: 22px;
+  }
+  /*feature section start*/
   /*about us section start*/
   .about_us_img {
     width: 445px;
@@ -112,8 +169,18 @@
   }
   .about_us_btn {
     margin-top: 15px;
-}
+  }
   /*about us section end*/
+  /*why choose section start*/
+  .single_content h2 {
+    margin-left: 0px;
+  }
+  /*why choose section end*/
+  /*pricing section start*/
+  .price_title {
+    width: 32%;
+  }
+  /*pricing section end*/
 }
 
 /* Extra Large devices (desktops, 1200px and up)*/
@@ -128,6 +195,12 @@
     margin-left: 10px;
   }
   /*about us section end*/
+  /*pricing section start*/
+  .price_btn {
+    margin: 15px 0 12px 40px;
+    padding: 8px 25px;
+  }
+  /*pricing section end*/
 }
 
 /* Extra Extra large devices (large desktops, 1400px and up)*/
@@ -158,4 +231,10 @@
     margin-left: 10px;
   }
   /*about us section end*/
+  /*pricing section start*/
+  .price_btn {
+    margin: 15px 0 12px 50px;
+    padding: 8px 25px;
+  }
+  /*pricing section end*/
 }
